@@ -97,7 +97,7 @@ console.log("grade : "+result);//output : fail
 
 // ----------- CHECK VOWELS FUNCTION  --------------------
 
-function findVowels(str)
+function findVowels(str) 
 {
   if((str.match(/[aeiou]/ig)!= null))//checks for vowels in the string by matching
   {
